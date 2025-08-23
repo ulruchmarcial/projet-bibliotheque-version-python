@@ -1,0 +1,82 @@
+[
+    {
+        "id_livre": 1,
+        "titre": "Python pour les débutants",
+        "auteur": "Jean Dupont",
+        "annee_de_publication": 2018,
+        "genre": "programmation",
+        "nombre_exemplaire": 5
+    },
+    {
+        "id_livre": 2,
+        "titre": "L’Art du Machine Learning",
+        "auteur": "Alice Martin",
+        "annee_de_publication": 2020,
+        "genre": "intelligence artificielle",
+        "nombre_exemplaire": 3
+    },
+    {
+        "id_livre": 3,
+        "titre": "Programmation",
+        "auteur": "TAMO",
+        "annee_de_publication": 2014,
+        "genre": "info",
+        "nombre_exemplaire": 2
+    },
+    {
+        "id_livre": 4,
+        "titre": "Les Bases de Données",
+        "auteur": "Marie Petit",
+        "annee_de_publication": 2016,
+        "genre": "informatique",
+        "nombre_exemplaire": 4
+    },
+    {
+        "id_livre": 5,
+        "titre": "Sécurité des Systèmes",
+        "auteur": "Michel Laurent",
+        "annee_de_publication": 2019,
+        "genre": "cybersécurité",
+        "nombre_exemplaire": 2
+    },
+    {
+        "id_livre": 6,
+        "titre": "Développement Web",
+        "auteur": "Nadia Ben",
+        "annee_de_publication": 2021,
+        "genre": "programmation",
+        "nombre_exemplaire": 6
+    },
+    {
+        "id_livre": 7,
+        "titre": "Structures de Données",
+        "auteur": "Karim D.",
+        "annee_de_publication": 2015,
+        "genre": "algorithmes",
+        "nombre_exemplaire": 3
+    },
+    {
+        "id_livre": 8,
+        "titre": "Java en profondeur",
+        "auteur": "Lucas Morel",
+        "annee_de_publication": 2017,
+        "genre": "programmation",
+        "nombre_exemplaire": 4
+    },
+    {
+        "id_livre": 9,
+        "titre": "Introduction à l’IA",
+        "auteur": "Fatou N’Diaye",
+        "annee_de_publication": 2022,
+        "genre": "intelligence artificielle",
+        "nombre_exemplaire": 5
+    },
+    {
+        "id_livre": 10,
+        "titre": "Linux et Commandes Shell",
+        "auteur": "Omar Y.",
+        "annee_de_publication": 2013,
+        "genre": "systèmes",
+        "nombre_exemplaire": 2
+    }
+]

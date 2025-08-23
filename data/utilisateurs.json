@@ -1,0 +1,26 @@
+[
+    {
+        "id_utilisateur": 1,
+        "nom": "ahmed",
+        "prenom": "ulruch",
+        "adresse": "rue du pere ",
+        "email": "hyted@hdbd",
+        "telephone": 5816885475
+    },
+    {
+        "id_utilisateur": 2,
+        "nom": "NGOMEN",
+        "prenom": "MARCIAL",
+        "adresse": "rue du pere ",
+        "email": "hyted@hdbd",
+        "telephone": 5816885475
+    },
+    {
+        "id_utilisateur": 3,
+        "nom": "ALEX",
+        "prenom": "RICHARD",
+        "adresse": "rue du pere ",
+        "email": "hyted@hdbd",
+        "telephone": 5816885475
+    }
+]
