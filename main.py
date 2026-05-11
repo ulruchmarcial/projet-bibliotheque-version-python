@@ -130,29 +130,34 @@ while True :
 
                     
         case "D":
-            effacer_ecran()
-            SousMenuStatistiques()
-            choix_D = votre_choix_nombre()
-            match choix_D:
-                case 1:
-                    effacer_ecran()
-                    nombre_total_livre(liste_livres)
-                    pause()
-                case 2:
-                    effacer_ecran()
-                    nombre_total_utilisateur(liste_utilisateurs)
-                    pause()
-                case 3:
-                    effacer_ecran()
-                    nombre_total_emprunt(liste_emprunts)
-                    pause()
+            while True:
+                effacer_ecran()
+                SousMenuStatistiques()
+                choix_D = votre_choix_nombre()
+                match choix_D:
+                    case 1:
+                        effacer_ecran()
+                        nombre_total_livre(liste_livres)
+                        pause()
+                    case 2:
+                        effacer_ecran()
+                        nombre_total_utilisateur(liste_utilisateurs)
+                        pause()
+                    case 3:
+                        effacer_ecran()
+                        nombre_total_emprunt(liste_emprunts)
+                        pause()
+                    case 4:
+                        print("⬅️ Retour au menu principal")
+                        time.sleep(1)
+                        break
         case "Q":
             print("Merci d’avoir utilisé la bibliothèque. 👋")
             quitter_programme()
             break
         case _:
             print("❌ Choix invalide, veuillez réessayer.")
-            break
+            time.sleep(1)
 
 
             

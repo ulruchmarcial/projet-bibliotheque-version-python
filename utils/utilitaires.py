@@ -1,18 +1,16 @@
 import os
 import time
-import msvcrt
 import random
 import string
 
 
-# fonction pour effacer l'ecran 
+# fonction pour effacer l'ecran
 def effacer_ecran():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-# fonction pour faire une pause 
+# fonction pour faire une pause
 def pause():
-    print("Appuyez sur une touche pour continuer...")
-    msvcrt.getch()
+    input("Appuyez sur Entrée pour continuer...")
     effacer_ecran()
 
 # Fonction pour quitter le programme 

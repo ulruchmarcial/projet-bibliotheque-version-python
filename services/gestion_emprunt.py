@@ -61,12 +61,11 @@ def recherche_emprunt_par_id_utilisateur(liste_emprunts , liste_utilisateurs , l
     
 # fonction pour verifier qu'un Emprunt exite dans  liste des Emprunts
 
-def exite_emprunt( emprunt , liste_emprunts):
-    for emprunt in liste_emprunts:
-        if emprunt  == emprunt :
+def exite_emprunt(emprunt, liste_emprunts):
+    for e in liste_emprunts:
+        if e == emprunt:
             return True
-        else:
-            return False
+    return False
         
 #  fonction pour rechercher et afficher un emprunt 
 def rechercher_emprunt(  liste_emprunts , liste_utilisateurs , liste_livres):

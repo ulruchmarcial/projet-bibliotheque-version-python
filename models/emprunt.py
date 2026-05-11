@@ -15,15 +15,12 @@ from datetime import date, timedelta , datetime
 
 
 class Emprunt:
-   
+
     def __init__(self, id_emprunt = 0, id_utilisateur = 0, id_livre = 0, date_emprunt =None, date_retour =None ):
         self.id_emprunt = id_emprunt or generer_id_emprunt()
         self.id_utilisateur = id_utilisateur
         self.id_livre = id_livre
-        self.date_emprunt = date_emprunt if date_emprunt else date.today()
-        self.date_retour = date_retour if date_retour else self.date_emprunt + timedelta(days=14)
-         # Protection automatique contre les mauvais types
-               # Conversion sécurisée des dates
+
         if date_emprunt is None:
             self.date_emprunt = date.today()
         elif isinstance(date_emprunt, str):
@@ -54,10 +51,6 @@ class Emprunt:
         else:
             self.date_retour = date_retour
 
-    def __str__(self):
-        date_retour_str = self.date_retour.strftime('%d/%m/%Y') if self.date_retour else "Non définie"
-        
-       
     def saisir_infos_emprunt(self , liste_utilisateurs , liste_livres):
         print("vous êtes sur le point d'enregistrer d'un nouvel emprunt...")
        
